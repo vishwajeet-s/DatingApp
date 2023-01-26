@@ -41,8 +41,11 @@ Or
 git init
 dotnet new gitignore
 
+git branch -M main
+git remote add origin https://github.com/vishwajeet-s/DatingApp.git
+git push -u origin main
 
-
+git push --set-upstream origin main
 
 
 
